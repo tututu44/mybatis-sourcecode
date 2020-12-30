@@ -8,9 +8,11 @@ public class App {
         Statement statement = null;
         ResultSet resultSet = null;
         try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
+//            Class.forName("com.mysql.cj.jdbc.Driver");
             connection = DriverManager.getConnection("jdbc:mysql://119.29.37.86:3306/test?characterEncoding=utf8&serverTimezone=GMT%2B8","root","123456");
             connection.createStatement();
+            DatabaseMetaData metaData = connection.getMetaData();
+            System.out.println(metaData);
             statement = connection.createStatement();
             resultSet = statement.executeQuery("select * from user");
             while (resultSet.next()) {

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user id = "1">
+      <name>lucy</name>
+      <createTime>2018-09-09 00:00:00</createTime>
+      <password>admin</password>
+      <phone>999999999</phone>
+      <nickName>lu</nickName>
+  </user>
+    <user id = "2">
+        <name>amy</name>
+        <createTime>2012-04-09 00:00:00</createTime>
+        <password>admin</password>
+        <phone>999999998</phone>
+        <nickName>ai</nickName>
+    </user>
+</users>

@@ -4,7 +4,6 @@ import org.apache.ibatis.annotations.Select;
 
 import java.lang.reflect.Parameter;
 import java.lang.reflect.Proxy;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
